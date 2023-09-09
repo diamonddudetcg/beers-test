@@ -16,7 +16,7 @@ The Data module has no access to the domain or app modules.
 
 The Domain module is in charge of transforming the raw data from the Data module into something the App module can use. It defines both the use cases (in this case there's just one, but additional use cases would go here) and a mapper that turns the raw response into our model.
 
-The [UseCases](https://github.com/diamonddudetcg/beers-test/blob/main/domain/src/main/java/com/santirivera/domain/usecase/BaseUseCase.kt) use Kotlin Corroutines to handle asynchronicity. They're defined as simple operations with an input and an output that is returned via a callback. The App module simply injects these use cases and defines callbacks for the output.
+The [UseCases](https://github.com/diamonddudetcg/beers-test/blob/main/domain/src/main/java/com/santirivera/domain/usecase/BaseUseCase.kt) use Kotlin Corroutines to handle asynchronicity. They're defined as simple operations with an input and an output that is returned via a callback (if provided). The App module simply injects these use cases and defines callbacks for the output. In case no callback is provided, the operation is completed silently.
 
 The Domain module has access to the Data module, but not the App module
 
