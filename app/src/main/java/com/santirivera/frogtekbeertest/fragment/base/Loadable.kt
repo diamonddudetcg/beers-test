@@ -1,6 +1,6 @@
 package com.santirivera.frogtekbeertest.fragment.base
 
-interface LoadableFragment {
+interface Loadable {
     fun startLoad()
     fun endLoad()
     fun noInternet()

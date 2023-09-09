@@ -6,5 +6,5 @@
     <fragment
         android:id="@+id/item_list_fragment"
         android:label="@string/app_title"
-        android:name="com.santirivera.frogtekbeertest.fragment.list.FrogtekBeerListFragment"/>
+        android:name="com.santirivera.frogtekbeertest.fragment.list.FrogtekBeerList"/>
 </navigation>

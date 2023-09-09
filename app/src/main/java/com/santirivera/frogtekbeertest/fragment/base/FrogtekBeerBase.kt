@@ -7,7 +7,7 @@ import android.widget.TextView
 import androidx.fragment.app.Fragment
 import com.santirivera.frogtekbeertest.R
 
-abstract class FrogtekBeerBaseFragment : Fragment(), LoadableFragment {
+abstract class FrogtekBeerBaseFragment : Fragment(), Loadable {
 
     private var loading = false
 
