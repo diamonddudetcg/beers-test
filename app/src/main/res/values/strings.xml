@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Beers Test</string>
+    <string name="app_title">Beers Test - Santiago Rivera</string>
+    <string name="loading">Loading…</string>
+    <string name="error_no_internet">You don\'t have an internet connection. Please connect to the Internet and try again.</string>
+    <string name="brand">Brand: %1$s</string>
+    <string name="alcohol_content">Alcohol content: %1$s</string>
+    <string name="name">Name: %1$s</string>
+    <string name="style">Style: %1$s</string>
+</resources>
