@@ -61,7 +61,8 @@ class FrogtekBeerListFragment : FrogtekBeerBaseFragment(),
     }
 
     override fun onBeerClicked(item: BeerItem) {
-
+        val beerDialog = FrogtekBeerDialog(requireContext(), item)
+        beerDialog.show()
     }
 
 
